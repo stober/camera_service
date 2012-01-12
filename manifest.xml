@@ -1,0 +1,19 @@
+<package>
+  <description brief="camera_service">
+
+     camera_service
+
+  </description>
+  <author>Jeremy Stober</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/camera_service</url>
+
+  <depend package="rospy" />
+  <depend package="topic_service" />
+  <depend package="sensor_msgs" />
+  <depend package="std_msgs" />
+
+</package>
+
+
