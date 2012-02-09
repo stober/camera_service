@@ -1,0 +1,11 @@
+ROS Camera Service
+
+Author: Jeremy Stober
+Contact: stober@gmail.com
+Version: 0.01
+
+Use topic_service (https://github.com/stober/topic_service) to create
+a camera service that returns camera images. Unlike polled camera
+(which tries to turn a service into a topic by populating the camera
+image topic when the service is called) this creates a true service
+that when called returns an image.
